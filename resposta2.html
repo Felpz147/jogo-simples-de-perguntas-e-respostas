@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Jogo Geek</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Quem é conhecido como o Homem de Ferro nos quadrinhos e filmes da Marvel?</h1>
+        <form id="pergunta1Form" onsubmit="return validaResposta('resposta1')">
+            <input type="radio" name="resposta" value="erro"> Bruce Wayne<br>
+            <input type="radio" name="resposta" value="erro"> Steve Rogers<br>
+            <input type="radio" name="resposta" value="correta"> Tony Stark<br>
+            <input type="submit" value="Responder">
+        </form>
+        <a href="ajuda2.html">Obter Ajuda</a>
+        <div id="erro" style="display:none;color:red;">Resposta incorreta. Tente novamente!</div>
+        <script src="script2.js"></script>
+    </div>
+</body>
+</html>
